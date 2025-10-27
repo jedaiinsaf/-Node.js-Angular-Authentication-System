@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Connexion</h2>
+  <form (ngSubmit)="login()">
+    <input [(ngModel)]="email" name="email" type="email" placeholder="Email" required />
+    <input [(ngModel)]="password" name="password" type="password" placeholder="Mot de passe" required />
+    <button type="submit">Se connecter</button>
+    <p><a routerLink="/register">Créer un compte</a></p>
+  </form>
+</div>

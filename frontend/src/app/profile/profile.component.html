@@ -1,0 +1,17 @@
+<div class="profile-wrapper" *ngIf="user">
+  <div class="profile-card">
+    <h2>👋 Bonjour, {{ user.name }}</h2>
+    
+    <p class="email">{{ user.email }}</p>
+
+<button class="btn-primary" (click)="goToChangePassword()">
+  🔐 Changer le mot de passe
+</button>
+<br>
+    <button class="logout-btn" (click)="logout()">🚪 Se déconnecter</button>
+  </div>
+</div>
+
+<div *ngIf="error" class="error-message">
+  <p>❌ {{ error }}</p>
+</div>

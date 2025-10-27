@@ -1,9 +1,35 @@
-# Node.js dependencies
+# ========================
+# Node.js / Backend
+# ========================
 node_modules/
+npm-debug.log
+yarn-error.log
+.env
 
-# Angular build output
-dist/
-out-tsc/
+# ========================
+# Angular / Frontend
+# ========================
+# Build output
+/dist
+/out-tsc
+
+# Dependency directories
+/node_modules
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
 # Environment files
 /src/environments/*.ts
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
