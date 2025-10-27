@@ -25,5 +25,5 @@
 
 ### 1. Clone the repository
 ```bash
-git clone 
-cd your-repo
+git clone https://github.com/jedaiinsaf/-Node.js-Angular-Authentication-System.git
+cd your-repo 
