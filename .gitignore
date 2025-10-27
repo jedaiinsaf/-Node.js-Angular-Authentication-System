@@ -1,10 +1,9 @@
-# Node.js
+# Node.js dependencies
 node_modules/
-.env
 
-# Angular
-frontend/node_modules/
-frontend/dist/
+# Angular build output
+dist/
+out-tsc/
 
-# Logs
-*.log
+# Environment files
+/src/environments/*.ts
